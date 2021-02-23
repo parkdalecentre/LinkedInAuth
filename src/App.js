@@ -1,9 +1,11 @@
 import "./App.css";
+import LoginButton from "./components/LoginButton";
+// Imports
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Linkedin App</h1>
+			<LoginButton />
 		</div>
 	);
 }
