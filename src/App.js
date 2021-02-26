@@ -1,6 +1,7 @@
 import "./App.css";
 import LoginButton from "./components/LoginButton";
 import PushToAccessToken from "./components/PushToAccessToken";
+import PushToProfileData from "./components/PushToProfileData";
 
 function App() {
 	const isLoggedIn = window.location.href.indexOf("code") > -1;
@@ -15,6 +16,8 @@ function App() {
 				<div>
 					<PushToAccessToken />
 					{/* push the user to the access_token page */}
+					<PushToProfileData />
+					{/* push the user to the profile_data page */}
 				</div>
 			)}
 		</div>
